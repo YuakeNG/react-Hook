@@ -1,0 +1,158 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "首页",
+          "meta": {}
+        }
+      ],
+      "/guide": [
+        {
+          "title": "介绍",
+          "path": "/guide"
+        }
+      ],
+      "/hooks": [
+        {
+          "title": "生命周期",
+          "children": [
+            {
+              "path": "/hooks/use-unmount",
+              "title": "useUnmount"
+            },
+            {
+              "path": "/hooks/use-unmounted-ref",
+              "title": "useUnmountedRef"
+            }
+          ]
+        },
+        {
+          "title": "状态",
+          "children": [
+            {
+              "path": "/hooks/use-boolean/inde",
+              "title": "useBoolean"
+            },
+            {
+              "path": "/hooks/use-cookie-state",
+              "title": "useCookieState"
+            },
+            {
+              "path": "/hooks/use-debounce",
+              "title": "useDebounce"
+            },
+            {
+              "path": "/hooks/use-get-state",
+              "title": "useGetState"
+            },
+            {
+              "path": "/hooks/use-local-storage-state",
+              "title": "useLocalStorageState"
+            },
+            {
+              "path": "/hooks/use-map",
+              "title": "useMap"
+            },
+            {
+              "path": "/hooks/use-previous",
+              "title": "usePrevious"
+            },
+            {
+              "path": "/hooks/use-reset-state",
+              "title": "useResetState"
+            },
+            {
+              "path": "/hooks/use-safe-state",
+              "title": "useSafeState"
+            },
+            {
+              "path": "/hooks/use-session-storage-state",
+              "title": "useSessionStorageState"
+            },
+            {
+              "path": "/hooks/use-set",
+              "title": "useSet"
+            },
+            {
+              "path": "/hooks/use-set-state",
+              "title": "useSetState"
+            },
+            {
+              "path": "/hooks/use-toggle",
+              "title": "useToggle"
+            },
+            {
+              "path": "/hooks/use-throttle",
+              "title": "useThrottle"
+            }
+          ]
+        },
+        {
+          "title": "Effect",
+          "children": [
+            {
+              "path": "/hooks/use-debounce-fn",
+              "title": "useDebounceFn"
+            },
+            {
+              "path": "/hooks/use-throttle-fn",
+              "title": "useThrottleFn"
+            },
+            {
+              "path": "/hooks/use-update-effect",
+              "title": "useUpdateEffect"
+            }
+          ]
+        },
+        {
+          "title": "进阶",
+          "children": [
+            {
+              "path": "/hooks/use-latest",
+              "title": "useLatest"
+            },
+            {
+              "path": "/hooks/use-memoized-fn",
+              "title": "useMemoizedFn"
+            }
+          ]
+        }
+      ],
+      "/": [
+        {
+          "title": "首页",
+          "path": "index"
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "指南",
+        "path": "/guide"
+      },
+      {
+        "title": "Hooks",
+        "path": "/hooks"
+      }
+    ]
+  },
+  "title": "印客学院 encode hooks",
+  "logo": "/encode-hooks/avatar.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {},
+  "exportStatic": {}
+}
